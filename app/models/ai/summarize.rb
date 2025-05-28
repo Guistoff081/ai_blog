@@ -9,9 +9,8 @@ module Ai
     def summarize
       return false unless valid?
 
-      # Simulate a summarization process
-      self.summary = text.split[0..49].join(" ") + "..."
-      true
+      client = RubyLLM::Client.new(prompt: "Summarize this: #{text}")
+      client.complete.text
     end
   end
 end
