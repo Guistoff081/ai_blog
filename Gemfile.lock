@@ -44,7 +44,7 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    active_genie (0.25.1)
+    active_genie (0.26.6)
     activejob (8.0.2)
       activesupport (= 8.0.2)
       globalid (>= 0.3.6)
